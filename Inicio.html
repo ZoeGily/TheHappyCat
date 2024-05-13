@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Happy Cat Inicio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="styleINICIO.css">
+    <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+    <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+
+</head>
+<body>
+    <!--Menu & aliniacion del Header-->
+    <header>
+        <div class="container">
+            <img class="LogoHeader" src="Logo.png" alt="Logo">
+            <div class="header-text">
+                <h1>The Happy Cat</h1>
+                <h2>LA MEJOR OPCIÓN PARA SU FELINO</h2>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="menu">
+                <button onclick="window.location.href='Inicio.html'">Inicio</button>
+                <button onclick="window.location.href='AcercaDe.html'">Acerca De</button>
+                <button onclick="window.location.href='Productos.html'">Productos</button>
+                <button onclick="window.location.href='Contacto.html'">Contacto</button>
+            </div>
+        </div>
+        
+    </header>
+        <div class="separador"></div>
+
+    <!--Contenido del Slider-->
+      <section class="splide" aria-labelledby="carousel-heading">
+           <div class="splide__track">
+              <ul class="splide__list">
+                  <li class="splide__slide"> <img src="SLIDER/SLIDER 1.svg" alt=""></li>
+                  <li class="splide__slide"> <img src="SLIDER/SLIDER 2.svg" alt=""></li>
+                  <li class="splide__slide"> <img src="SLIDER/SLIDER 3.svg" alt=""></li>
+                  <li class="splide__slide"> <img src="SLIDER/SLIDER 4.svg" alt=""></li>
+              </ul>
+          </div>
+       </section>
+
+       <script>
+        var splide = new Splide( 'section.splide', {
+  type   : 'loop',
+  padding: '0rem',
+  height: '1280px', 
+} );
+splide.mount();
+      </script>
+    <main>
+
+        <img src="Banner Cat Premium/Banner 1.svg" alt="" style="margin-top: -700px;">
+        <div class="separador"></div>
+        <p>¡Descubre una amplia gama de productos especialmente diseñados para consentir a tu felino favorito!</p>
+        <p>Desde deliciosos alimentos y juguetes interactivos hasta cómodas camas y accesorios de moda,
+        nuestra tienda para gatos ofrece todo lo que necesitas para mantener a tu peludo amigo feliz y saludable.
+        Explora nuestras opciones de alta calidad que satisfacen las necesidades de tu gato y elevan su estilo de vida.</p>
+        <p>¡Haz que cada día sea purrfecto con nuestros productos diseñados pensando en tu mascota!</p>
+       
+
+        <section class="section">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-half">
+                        <div class="columns is-mobile is-multiline">
+                            <div class="column is-3">
+                                <figure class="image is-500x500">
+                                    <img class="gallery-image" src="BulmaGallery 1.jpg" alt="Imagen 1">
+                                </figure>
+                            </div>
+                            <div class="column is-3">
+                                <figure class="image is-500x500">
+                                    <img class="gallery-image" src="BulmaGallery 2.jpg" alt="Imagen 2">
+                                </figure>
+                            </div>
+                            <div class="column is-3">
+                                <figure class="image is-500x500">
+                                    <img class="gallery-image" src="BulmaGallery 3.jpg" alt="Imagen 3">
+                                </figure>
+                            </div>
+                            <div class="column is-3">
+                                <figure class="image is-500x500">
+                                    <img class="gallery-image" src="BulmaGallery 4.jpg" alt="Imagen 4">
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="separador"></div>
+
+        <footer class="footer">
+            <div class="container">
+                <p>Derechos Reservados 2024</p>
+                <p>Esto es un proyecto educativo, todo lo visto en esta página web es ficticio y no tiene un valor intrínseco por ende los productos mostrados no se pueden adquirir por este medio.</p>
+            <img src="LogoFooter.png" alt="LogoFooter">
+            <img src="Cat-icon-Footer.png" alt="">
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

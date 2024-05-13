@@ -1,0 +1,192 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #F2F2F2;
+margin: 0;
+}
+
+.separador {
+height: 100px;
+
+}
+/* Estilos Generales */
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+header {
+    background-color: #9EEAE3;
+    color: #1A5355;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogoHeader {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: #1D8384;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu button {
+    background-color: #1A5355;
+    color: #F2FBFA;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #F2FBFA;
+    color: #1A5355;
+}
+
+
+.container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+height: 100%;
+ }
+        
+ #map {
+ flex: 1;
+ height: 100%;
+        }
+        
+.contact-info {
+flex: 1;
+padding: 20px;
+background-color: #f2f2f2;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+}
+
+        
+.Mapa {
+width: 100%;
+height: auto;
+}
+        
+
+.container {
+display: flex;
+justify-content: space-between;
+align-items: flex-start;
+}
+        
+.map {
+flex: 1;
+margin-right: 20px; /* Ajusta el margen entre el mapa y la información de contacto según sea necesario */
+}
+        
+.contact-info {
+flex: 1;
+}
+
+.social-icons {
+text-align: center;
+}
+        
+.social-icons a {
+display: inline-block;
+margin: 0 10px; /* Espacio entre los iconos */
+}
+        
+.social-icons img {
+width: 40px; /* Tamaño de los iconos */
+height: 40px;
+transition: transform 0.3s ease; /* Efecto de transición al pasar el ratón */
+}
+        
+.social-icons img:hover {
+transform: scale(1.2); /* Efecto de aumento al pasar el ratón */
+}
+        
+
+.video-container {
+        display: flex;
+      flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+.video-gif {
+       max-width: 100%; /* Ajustar al ancho del contenedor */
+        height: 600px; /* Altura máxima para mantener la proporción */
+}
+.map {
+        flex: 1;
+        margin-right: 20px; /* Ajusta el margen entre el mapa y la información de contacto según sea necesario */
+    }
+
+section{
+display: flex;
+width: 1350px;
+height: 430px;
+}
+
+section img{
+width: 212px;
+flex-grow: 1;
+object-fit: cover;
+opacity: .8;
+transition: .5s ease;
+}
+
+section img:hover{
+cursor: pointer;
+width: 300px;
+opacity: 1;
+filter: contrast(120%);
+}
+
+h1, h2, h3 {
+font-weight: central;
+font-size: 25px;
+margin: 24px 10px;
+text-align: center;
+}
+
+p{
+color: black;
+font-size: 20px;
+}
+
+.footer {
+        background-color: #1A5355;
+        color: black; /* Cambio de color para legibilidad */
+        padding: 40px 0;
+        text-align: center;
+}
+    
+ .footer img {
+        width: 190px;
+        height: 100px;
+        margin-top: 20px;
+}

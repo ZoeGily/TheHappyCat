@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F2F2;
+    margin: 0;
+}
+
+
+header {
+    background-color: #9EEAE3;
+    color: #1A5355;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogoHeader {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: #1D8384;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu button {
+    background-color: #1A5355;
+    color: #F2FBFA;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #F2FBFA;
+    color: #1A5355;
+}
+
+.AcercaDe {
+    position: relative; /* Cambiado de absolute a relative */
+    top: 0; /* Cambiado de 95% a 0 */
+    left: 50%;
+    transform: translateX(-50%); /* Solo centrado horizontal */
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+.imginfo img {
+    width: 400px;
+    height: 400px;
+}
+
+.imginfo img:hover {
+    transform: scale(1.1);
+}
+.imginfo img:not(:nth-child(2)) {
+    width: 100px; /* Ancho reducido */
+    height: 100px; /* Altura reducida */
+    margin: 0 10px;
+  
+}
+
+
+.catsection {
+    position: relative;
+    text-align: center; /* Añadido para centrar el contenido */
+}
+
+.catsectionimg {
+    width: 100%; /* Ajustado al ancho del contenedor */
+    height: auto;
+    opacity: 0.3;
+    margin-top: 20px; /* Espacio superior */
+}
+
+.ViMiVa {
+    position: absolute;
+    top: 50%; /* Posicionamiento vertical en el centro */
+    left: 50%; /* Posicionamiento horizontal en el centro */
+    transform: translate(-50%, -50%); /* Centrado horizontal y vertical */
+    text-align: center;
+    color: black; /* Cambio de color para legibilidad */
+    padding: 20px;
+    width: 90%; /* Ancho del cuadro de texto */
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+}
+
+h1,h2,h3 {
+
+    font-weight: central;
+    font-size: 25px;
+     margin: 24px 10px;
+     text-align: center;
+ 
+ }
+ p{
+     color: black;
+     font-size: 20px;
+ }
+
+ .separador {
+    height: 100px;
+ } 
+
+ 
+.footer {
+    background-color: #1A5355;
+    color: black; /* Cambio de color para legibilidad */
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer img {
+    width: 190px;
+    height: 100px;
+    margin-top: 20px;
+}

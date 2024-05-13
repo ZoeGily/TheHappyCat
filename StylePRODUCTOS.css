@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #9EEAE3;
+    color: #1A5355;
+    padding: 2%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogoHeader {
+    width: 150px;
+    height: auto;
+    max-width: 100%;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-color: #1D8384;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu button {
+    background-color: #1A5355;
+    color: #F2FBFA;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #F2FBFA;
+    color: #1A5355;
+}
+    
+    
+    .submenu {
+        background-color: #1D8384;
+        padding: 10px;
+        justify-content: flex-end;
+        display: flex;
+    }
+    
+    .submenu button {
+        background-color: #1A5355;
+        color: #F2FBFA;
+        border: none;
+        padding: 10px 20px;
+        margin-left: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    
+    .submenu button:hover {
+        background-color: #F2FBFA;
+        color: #1A5355;
+    }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    justify-content: space-between;
+}
+
+.column {
+    flex-basis: calc(25% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.column img {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.description {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.footer {
+   
+    background-color: #1A5355;
+    color: black;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer img {
+    width: 190px; 
+    height: 100px; 
+    margin-top: 20px;
+}
+.separador {
+    height: 100px;
+    
+    }
